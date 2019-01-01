@@ -37,3 +37,23 @@ padding:10px;
     padding:10px;
     font-size:16px;
 }
+.badge{
+    font-weight:normal !important;
+}
+
+.package{
+    width:100px;
+    transition:0.2s ease-in-out;
+
+}
+.package:hover{
+    transform: scale(1.3);
+    transition:0.2s ease-in-out;
+}
+.package-text{
+    font-size:14px;
+    background: #d23;
+    color: #fff;
+    position: relative;
+    z-index:9999;
+}
