@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family:openlight;
+	src: url('openlight.ttf'); 
+}
+
+@font-face {
+    font-family:open;
+	src: url('open.ttf');
+}
+
+
+@font-face {
+    font-family:museo;
+	src: url('museo.otf');
+}
+
+.row p a{
+color:#fff;
+}
+
+body {
+font-family:museo;
+overflow-x:hidden;
+
+}
+
+#section2  a {
+
+color:#116611;
+padding:10px;
+
+}
+.notes{
+    list-style-type: square;
+    margin-left:0px;
+    padding:10px;
+    font-size:16px;
+}
