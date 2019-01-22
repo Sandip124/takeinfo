@@ -13,8 +13,9 @@
     src: url('museo.otf');
 }
 
-.row p a {
-    color: #fff;
+@font-face {
+    font-family: christmastime;
+    src: url('Christmas Time Personal Use.ttf');
 }
 
 body {
@@ -22,8 +23,11 @@ body {
     overflow-x: hidden;
 }
 
+.link, .brand-style {
+    color: #249C4A;
+}
+
 #section2 a {
-    color: #116611;
     padding: 10px;
 }
 
@@ -38,6 +42,11 @@ body {
     font-weight: normal !important;
 }
 
-.download{
-    color:#fff !important;
+.empty-project, .empty-books {
+    margin: 5px auto;
+}
+
+.navbar-brand {
+    font-family: christmastime;
+    font-size: 25px;
 }
